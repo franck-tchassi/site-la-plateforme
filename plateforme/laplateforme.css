@@ -1,0 +1,323 @@
+body header{
+    margin:0px;
+    background-color: black;
+}
+ .logo{
+    margin: 0px;
+    padding: 0px;
+    width: 250px;   
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+/* ********************carte-container********** */
+.carte-container .galerie{
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    margin:70px auto 0 ;
+    position:relative;
+    left: 200px;
+    top: -150px;
+    
+
+
+}
+.item{
+    width: 300px;
+    height: 140px;
+    margin: 1px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-color: brown;
+
+
+}
+.item img{
+    width: 100%;
+    height: auto;
+}
+.carte-container{
+    background-color: blueviolet;
+}
+
+/***********se former aux metiers************* */
+#metier1{
+    text-align: center;
+    font-size: 40px;
+    color: darkblue;
+
+}
+#metier-1{
+    text-align: center;
+    font-size: 40px;
+    color: darkblue;
+    
+}
+
+body{
+    background-color: aliceblue;
+    position: absolute;
+}
+
+.metiers{
+    display: flex;
+    position:relative;
+    margin-left: 400px;
+    background-color: aliceblue;
+    
+
+}
+.metiers div{
+    background-color:rgb(220, 214, 226) ;
+    width: 400px;
+    margin: 20px;
+    line-height:auto;
+    font-size: 15px;
+    position:relative ;
+    right: 300px;
+
+
+
+}
+.metiers-1{
+    background-color: aliceblue;
+
+}
+.metiers-1 .metier-2{
+    background-color:rgb(220, 214, 226) ;
+    width: 1250px;
+    line-height: 15px;
+    height: 120px;
+    position: relative;
+    left: 120px;
+    bottom: 
+
+
+}
+.metiers-1{
+    
+}
+.metiers-1 #metiers-1{
+    position: relative;
+    left: 250px;
+
+}
+.metiers-1 .metier-3{
+    background-color:rgb(220, 214, 226) ;
+    width: 1250px;
+    line-height: 15px;
+    height: 120px;
+    position: relative;
+    left: 120px;
+
+
+}
+.metiers-1 .metier-4{
+    background-color:rgb(220, 214, 226) ;
+    width: 1250px;
+    line-height: 15px;
+    height: 120px;
+    position: relative;
+    left: 120px;
+}
+.metiers-1  a{
+    text-decoration: none;
+    color: white;
+
+}
+#metier-2  {
+    border: solid 1px;
+    border-radius:19px ;
+    width:250px;
+    position: relative;
+    left: 600px;
+    top: 10px;
+    background-color: orange;
+
+
+    
+
+}
+
+.metiers-1 #metier-3 a{
+    border: solid 1px;
+    border-radius:19px;
+    width:250px;
+    position: relative;
+    left: 600px;
+    top: 10px;
+    background-color: orange;
+    
+
+}
+#metier-4{
+    border: solid 1px;
+    border-radius:19px;
+    width:250px;
+    position: relative;
+    left: 600px;
+    top: 25px;
+    background-color: orange;
+
+
+}
+/************la partie video ******* */
+.video {
+    background-color: orange;
+}
+.video #video-h2{
+    text-align: center;
+    position: relative;
+    bottom: -140px;
+    left: 250px;
+
+}
+.video #video-p{
+    text-align: center;
+    position: relative;
+    bottom: -150px;
+    left: 260px;
+}
+.video .video1{
+    position: relative;
+    bottom: -200px;
+    left: 100px;
+
+}
+.video .video2{
+    position: absolute;
+    left: 750px;
+    bottom: -200px;
+
+
+}
+
+
+
+
+
+
+
+/***********pied de page************* */
+.pied-de-page{
+    background-color: gray;
+}
+.pied-de-page .footer{
+    background-color: black;
+}
+.pied-de-page .pied-de-page1 .logo-footer img{
+    width: 250px;
+    position: relative;
+    bottom: -50px;
+    
+}
+.pied-de-page .pied-de-page1{
+    display: flex;
+    margin: 60px;
+}
+footer .pied-de-page2 ul,li{
+    list-style: none;
+    color: white;
+
+}
+footer .pied-de-page3 ul,li{
+    list-style: none;
+    color: white;
+
+}
+footer .pied-de-page4 ul,li{
+    list-style: none;
+    color: white;
+
+}
+footer .pied-de-page1 div ul a{
+    text-decoration: none;
+}
+.pied-de-page .pied-de-page4 button{
+    text-align: center ;
+    width: 100px;
+    background-color: gray;
+    border-color: white;
+}
+.pied-de-page .pied-de-page4 button a{
+    color: white;
+    text-decoration: none;
+}
+.pied-de-page1 .footer ul a{
+    display: flex;
+}
+
+/* **************page de contact.html************ */
+body{
+    padding: 0;
+    margin: 0;
+}
+.page-contact {
+    background-color: darkblue;
+    height: 500px;
+}
+.page-contact .contact1 #titre-contact,#parag-contact{
+    position: absolute;
+    left: 150px;
+    bottom: 515px;
+
+}
+.page-contact .contact1 #titre-contact{
+    font-size: 40px;
+    color: white;
+}
+section .contact1 iframe{
+    position: absolute;
+    left: 800px;
+    position: relative;
+    bottom: -100px;  
+    
+}
+/* **************page de contact.html************ */
+.formulaire{
+    background-color:rgb(68, 95, 158);
+}
+.formulaire #formulaire{
+    text-align: center;
+    color: aliceblue;
+}
+.sous-formulaire{
+    background-color: white;
+    align-items: center;
+}
+#sous-formulaire{
+    color:rgba(14, 22, 77, 0.563); 
+}
+#button{
+    background-color: rgba(14, 22, 77, 0.563);
+    border-radius: 15px;
+    margin: px;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+/* **************page de accueil.html************ */
